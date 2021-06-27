@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <title>JavaScript Brick Breaker!</title>
+</head>
+<body>
+  <img src="assets/images/ball.png" id="image_ball" class="tennis-ball"/>
+  <img src="assets/images/brick.png" id="image_brick" class="brick"/>
+  <h1>Rob's Brick Breaker!</h1>
+  <div class="page-container">
+    <div class="play-area">
+      <canvas id="gameScreen" width="800" height="600"></canvas>
+    </div>
+    <div class="controls-area">
+      <h2 class="instructions-header">Play Instructions:</h2>
+      <p>You have Three Lives.</p>
+      <br></br>
+      <p>Controls:</p>
+      <p>Press Spacebar to begin.</p>
+      <p>Press ESC to pause</p>
+      <p>Use Right / Left Arrows to move the paddle.</p>
+    </div>
+  </div>  
+  <script src="src/index.js"  type="module"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "js-game",
+  "version": "1.0.0",
+  "description": "First JavaScript Platform game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Robert Farb",
+  "license": "MIT"
+}
