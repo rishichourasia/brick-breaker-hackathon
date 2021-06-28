@@ -63,6 +63,15 @@ class Game {
         case this.currentLevel === 1:
           alert("You have completed level 1");
           break;
+        case this.currentLevel === 2:
+          alert("You have completed level 2");
+          break;
+        case this.currentLevel === 3:
+          alert("You have completed level 3");
+          break;
+        case this.currentLevel === 4:
+          alert("You have completed level 4");
+          break;
 
         default:
           alert("You have completed level 1");
